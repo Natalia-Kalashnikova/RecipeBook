@@ -1,0 +1,21 @@
+# Ignore system folders and build artifacts
+node_modules
+.next
+dist
+build
+out
+coverage
+
+# Ignore dependency lock files (managed by package managers)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore logs and temporary files
+*.log
+.DS_Store
+.vercel
+.env*
+
+# Ignore auto-generated code
+/prisma/generated
