@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Database & ORM (Prisma)
+/prisma/*.db
+/prisma/*.db-journal
+
+# Auth.js Environment Secrets
+.env.local
+.env.production.local
+.env.development.local
+
+# Editor & IDE settings
+.vscode/
+.idea/
